@@ -24,6 +24,7 @@ function Main() {
         }
 
     }
+    encrypt()
 
   return (
     <div>
@@ -37,7 +38,7 @@ function Main() {
         <label>
           <textarea type="text" className="plainInput-1" placeholder="Type in plain area"></textarea>
         </label>
-        <button className="encrypt-btn" onClick={encrypt}>Encrypter</button>
+        <button className="encrypt-btn" onClick={Main}>Encrypter</button>
         <button className="copyToClipBoard">Copier</button>
         <input type="number" className="shiftInput" min="0" max="25"></input>
           <br></br>
